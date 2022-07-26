@@ -1,69 +1,19 @@
 # README Creator
 
-___
-### Description
+## Description
+This project uses a series of prompts to create a personalized, professional and quick README file for your projects.
 
-Creates README Files
+It uses inquirer nad the fs library to create the file.
 
----
+It is stored inside a folder to avoid troubles with the original README file of this project.
 
-### Table of Contents
+Please watch the ![Demo Video](#demo-video) for installation, usage and more.
 
+## Link
+https://github.com/H0PE467/README_Creator
 
+## Screenshot
 
-- [Installation](#Installation)
+![Screenshot of Function](/project/assets/README%20Creator%20Screenshot.PNG)
 
-- [Usage Information](#Usage-Information)
-
-- [License](#License)
-
-- [Contributing](#Contributing)
-
-- [Tests](#Tests)
-
-- [Questions](#Questions)
-
----
-
-### Installation
-
-Type npm i to install node modules
-
----
-
-### Usage Information
-
-Type node serve.js to start
-
----
-
-### License
-
-Permissive
-
-Permissive licenses are also known as “Apache style” or “BSD style”. 
-They contain minimal requirements about how the software can be modified or redistributed. 
-This type of software license is perhaps the most popular license used with free and open source software. 
-Aside from the Apache License and the BSD License, another common variant is the MIT License.
-
----
-
-### Contributing
-
-None
-
----
-
-### Tests
-
-All
-
----
-
-### Questions
-
-H0PE467
-
-klausmcedillo@gmail.com
-
----
+## Demo Video
