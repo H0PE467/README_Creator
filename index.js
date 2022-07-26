@@ -4,56 +4,57 @@ inquirer
     .prompt([
         {
             type: 'input',
-            message: 'What is your user name?',
+            message: 'Title of the Project: ',
             name: 'title',
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'Description: ',
             name: 'description',
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'Installation Instructions: ',
             name: 'installation',
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'Usage Information: ',
             name: 'usage',
         },
         {
-            type: 'input',
+            type: 'list',
             message: 'What is your password?',
             name: 'license',
+            choices: ['Public Domain', 'LGPL', 'Permissive', 'Copyleft', 'Proprietary'],
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'Contribution Guidelines: ',
             name: 'contributing',
         },
         {
-            type: 'input',
-            message: 'What is your password?',
+            type: 'editor',
+            message: 'Test Instructions: ',
             name: 'tests',
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'GitHub Username: ',
             name: 'github_user',
         },
         {
             type: 'input',
-            message: 'What is your password?',
+            message: 'Email: ',
             name: 'email',
         },
     ])
-    .then((response) =>
-        // response.forEach(answer => {
-        //     console.log(answer);
-        // }
-        console.log(response)
-    );
+    .then((response) => {
+        let answers = response;
+        console.log(answers);
+
+    });
+
 
 
 /*
