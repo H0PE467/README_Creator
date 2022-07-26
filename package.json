@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/H0PE467/README_Creator#readme",
   "dependencies": {
-    "inquirer": "^9.0.2"
+    "inquirer": "^8.0.0"
   }
 }
