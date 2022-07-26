@@ -103,12 +103,12 @@ ${response.description}\n
 ---\n
 ### Table of Contents\n
 \n
-Installation\n
-Usage\n
-License\n
-Contributing\n
-Tests\n
-Questions\n
+- [Installation](#Installation)\n
+- [Usage Information](#Usage-Information)\n
+- [License](#License)\n
+- [Contributing](#Contributing)\n
+- [Tests](#Tests)\n
+- [Questions](#Questions)\n
 ---\n
 ### Installation\n
 ${response.installation}\n
