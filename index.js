@@ -102,8 +102,12 @@ As a permissive license, it puts only very limited restriction on reuse and has,
 //      Creates the README file                                     //
 //                                                                  //
 
+        if (!fs.existsSync('./dist')){
+            console.log('hola');
+            fs.mkdirSync('./dist')
+        }
 
-        fs.writeFile('README.md', 
+        fs.writeFile('./dist/README.md', 
 `# ${response.title}\n
 ${licenseBadge}
 ___
